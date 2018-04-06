@@ -13,17 +13,25 @@
 
 <body class="fluig-style-guide">
 	<div class="container-fluid">
-		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-				<img id="logo" style="max-height: 50px; max-width: 250px;" alt="Logo" src="/portal/api/servlet/image/1/custom/logo_image.png">
-				<h1 class="title-form-application text-center">{{{NOME PROCESSO}}}</h1>
-				<legend></legend>
+		<form name="createFormComponents" class="totvs-form grid vertical create-form-components ui-sortable" style="padding-right: 10px; padding-left: 10px;">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<img id="logo" style="max-height: 50px; max-width: 250px;" alt="Logo" src="/portal/api/servlet/image/1/custom/logo_image.png">
+					<h1 class="title-form-application text-center">{{{NOME PROCESSO}}}</h1>
+					<legend></legend>
+				</div>
 			</div>
-		</div>
 
-		<!-- <MAIN> -->
-
+			<!-- <MAIN> -->
+		</form>
 	</div>
+	<script src="/portal/resources/js/jquery/jquery.js"></script>
+	<script src="/portal/resources/js/jquery/jquery-ui.min.js"></script>
+	<script src="/portal/resources/js/mustache/mustache-min.js"></script>
+	<script src="/portal/resources/style-guide/js/fluig-style-guide.min.js"></script>
+	<script src="/portal/resources/style-guide/js/fluig-style-guide-filter.min.js"></script>
+	<script src="/portal/resources/style-guide/js/fluig-style-guide-ratingstars.min.js"></script>
+	<script src="/ECP_Libraries/resources/js/correcao/layout.js"></script>
 </body>
 
 </html>
